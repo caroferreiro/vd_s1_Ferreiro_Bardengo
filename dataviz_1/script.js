@@ -94,7 +94,7 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
             x: 'anio_mision',
             y: 'mision_hs',
             fontWeight: 'bold',
-            fontSize: 11,
+            fontSize: 11.5,
             fill: 'black',
             sort: 'nacionalidad',
             text: d => {
