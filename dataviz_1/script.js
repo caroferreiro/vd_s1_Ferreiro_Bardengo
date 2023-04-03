@@ -27,11 +27,11 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
             y: 'mision_hs', 
             //fill: 'nacionalidad',
             //'#9acd32'
-            fill: d => (d.nacionalidad == 'EE.UU.' ? '#5e94b6' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#e47499' : '	#A9A9A9'), 
+            fill: d => (d.nacionalidad == 'EE.UU.' ? '#73BAA3' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#FB894B' : '	#A9A9A9'), 
             fillOpacity: 0.5,
-            stroke: d => (d.nacionalidad == 'EE.UU.' ? '#5e94b6': '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#e47499' : '	#A9A9A9'),
-            strokeOpacity: 0.1,
-            strokeWeight: 0.1,
+            stroke: d => (d.nacionalidad == 'EE.UU.' ? '#73BAA3': '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#FB894B' : '	#A9A9A9'),
+            strokeOpacity: 0.2,
+            strokeWeight: 0.2,
             legend: true,
             sort: 'nacionalidad',
             //title: (d) =>
@@ -45,11 +45,11 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
             Plot.groupX({y: 'sum'}, {
               x: 'anio_mision', 
               y: 'mision_hs', 
-              fill:d => (d.nacionalidad == 'EE.UU.' ? '#5e94b6' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#e47499' : '	#A9A9A9'),
+              fill:d => (d.nacionalidad == 'EE.UU.' ? '#73BAA3' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#FB894B' : '	#A9A9A9'),
               fillOpacity: 0.8,
-              stroke: d => (d.nacionalidad == 'EE.UU.' ? '#5e94b6': '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#e47499' : '	#A9A9A9'),
-              strokeOpacity: 0.1,
-              strokeWeight: 0.1,
+              stroke: d => (d.nacionalidad == 'EE.UU.' ? '#73BAA3': '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#FB894B' : '	#A9A9A9'),
+              strokeOpacity: 0.3,
+              strokeWeight: 0.2,
               sort: 'nacionalidad',
               //title: (d) =>
             //`${d.nacionalidad}`
@@ -58,11 +58,11 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
             Plot.groupX({y: 'sum'}, {
               x: 'anio_mision', 
               y: 'mision_hs', 
-              fill:d => (d.nacionalidad == 'EE.UU.' ? '#5e94b6' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#e47499': '	#A9A9A9'),
+              fill:d => (d.nacionalidad == 'EE.UU.' ? '#73BAA3' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#FB894B': '	#A9A9A9'),
               fillOpacity: 0.7,
-              stroke:d => (d.nacionalidad == 'EE.UU.' ? '#5e94b6' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#e47499' : '	#A9A9A9'),
-              strokeOpacity: 0.1,
-              strokeWeight: 0.1,
+              stroke:d => (d.nacionalidad == 'EE.UU.' ? '#73BAA3' : '#A9A9A9' && d.nacionalidad == 'U.S.S.R/Rusia' ? '#FB894B' : '	#A9A9A9'),
+              strokeOpacity: 0.3,
+              strokeWeight: 0.2,
               sort: 'nacionalidad',
               //title: (d) =>
             //`${d.nacionalidad}`
