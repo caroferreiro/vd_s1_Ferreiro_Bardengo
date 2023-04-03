@@ -5,7 +5,7 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
     let datos_2019 = data.filter(d => d.anio_mision == '2019')
     let chart = Plot.plot({
       //color: {
-        //range: ['#9e0142', '#d53e4f', '#a454b0', '#4daf4a', '#fee08b', '#e6f598', '#abdda4', 'lemonchiffon', 'yellowgreen', '#4daf4a', '#71d1b3'],
+        //range: [#9e0142', '#d53e4f', '#a454b0', '#4daf4a', '#fee08b', '#e6f598', '#abdda4', 'lemonchiffon', 'yellowgreen', '#4daf4a', '#71d1b3'],
         //       Alemania    Canada     Rusia    Dinamarca    EE.UU.               Francia        Italia          Japon     Kazajistan
         //range: ['#FF69B4', '#87cefa', '#7b68ee', '#98fb98', '#f08080', '#e6f598', '#abdda4', '#66c2a5', '#3288bd', '#5e4fa2'], 
         //range: d => (datos_paises.nacionalidad == 'EE.UU.' ? '#87cefa' : '#A9A9A9' && datos_paises.nacionalidad == 'U.S.S.R/Rusia' ? '#9e0142' : '#A9A9A9'), 
