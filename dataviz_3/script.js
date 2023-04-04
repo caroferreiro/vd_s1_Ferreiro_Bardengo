@@ -64,7 +64,6 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
       grid: true,
     },
     style: {
-      //fontWeight: 'bold',
       fontSize: 12,
     },
     axisX: {
