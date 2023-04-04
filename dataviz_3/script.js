@@ -7,7 +7,6 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
       //range: ['hotpink', '#48a0d6'],
       range:  ['#C32362','#AAABBC'],
       //range: ['#8c7bd6', '#ffa247' ]
-      //legend: true, ["#7fc97f","#beaed4","#fdc086","#ffff99","#386cb0","#f0027f","#bf5b17","#666666"]
     },
       marks: [
       Plot.barX(data_mascYfem,  Plot.groupY({x: 'sum'}, {
